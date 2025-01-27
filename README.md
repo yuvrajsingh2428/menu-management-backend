@@ -68,8 +68,8 @@ Mongoose: For object data modeling.
 # **Setup and Installation**
 
 ## Clone the repository:
-git clone https://github.com/yuvrajsingh2428/menu-management-backend.git
-cd menu-management-backend
+- git clone https://github.com/yuvrajsingh2428/menu-management-backend.git
+- cd menu-management-backend
 
 ## Install dependencies:
 npm install
