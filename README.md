@@ -4,11 +4,11 @@
 
 This project is a Node.js backend server for menu management. It allows users to manage categories, subcategories, and items in a menu. The system is designed with a hierarchical structure:
 
-Category: A category can have multiple subcategories.
+- Category: A category can have multiple subcategories.
 
-Subcategory: A subcategory belongs to a category and can have multiple items.
+- Subcategory: A subcategory belongs to a category and can have multiple items.
 
-Items: Items belong to a category or subcategory.
+- Items: Items belong to a category or subcategory.
 
 ## Features
 
@@ -32,37 +32,37 @@ Items can belong to a category or a subcategory.
 
 ## READ (GET)
 
-Fetch all categories, subcategories, and items.
+- Fetch all categories, subcategories, and items.
 
-Fetch specific categories or subcategories by ID or name.
+- Fetch specific categories or subcategories by ID or name.
 
-Fetch all subcategories under a category.
+- Fetch all subcategories under a category.
 
-Fetch all items under a category or subcategory.
+- Fetch all items under a category or subcategory.
 
-Search items by name.
+- Search items by name.
 
 ### UPDATE
 
-Edit attributes for categories, subcategories, and items.
+- Edit attributes for categories, subcategories, and items.
 
 ### SEARCH
 
-Search items by name using a flexible query.
+- Search items by name using a flexible query.
 
 ### DELETE
 
-Remove categories, subcategories, and items.
+- Remove categories, subcategories, and items.
 
 ### Tech Stack
 
-Node.js
+- Node.js
 
-Express.js
+- Express.js
 
-MongoDB: Chosen for its flexible document-based schema and scalability.
+- MongoDB: Chosen for its flexible document-based schema and scalability.
 
-Mongoose: For object data modeling.
+- Mongoose: For object data modeling.
 
 
 # **Setup and Installation**
